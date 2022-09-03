@@ -25,3 +25,10 @@ THEN the password is either displayed in an alert or written to the page
 ## Notes 
 
 Worked on task alongside with Justin Berg. 
+
+https://gsalma99.github.io/password-generator
+
+https://github.com/gsalma99/password-generator
+
+/<img width="1440" alt="Screen Shot 2022-09-02 at 10 22 06 PM" src="https://user-images.githubusercontent.com/110579963/188254753-1e9962f7-055b-4753-abfa-9bda85e4c291.png">
+
