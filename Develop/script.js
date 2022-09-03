@@ -1,4 +1,4 @@
-var characterLength = 13;
+var characterLength = 15;
 var choiceArr = [];
 
 var specialCharArr = ['!','@','#','$','%','^','&','*','(',')','{','}','|','?','/','<','>'];
@@ -41,11 +41,11 @@ function generatePassword(){
 
 function getPrompts(){
   choiceArr = [];
-  characterLength = parseInt(prompt("How many characters would you like your password to be? (8 - 128 characters"));
+  characterLength = parseInt(prompt("How many characters would you like your password to be? (8 - 128 characters)"));
 
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
-    alert("Length for chacters has to be in between 8 - 128 digits. Please try again!");
+    alert("Length for characters has to be in between 8 - 128 digits. Please try again!");
     return false;
 
   }
@@ -59,7 +59,7 @@ function getPrompts(){
   if (confirm("Would you like special characters?")) {
     choiceArr = choiceArr.concat(specialCharArr);
   }
-  if (confirm("Would you like numbers?")) {
+  if (confirm("Would you like add numbers?")) {
     choiceArr = choiceArr.concat(numberArr);
   }
   return true;
