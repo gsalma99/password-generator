@@ -14,7 +14,7 @@ generateBtn.addEventListener("click", writePassword);
 
 
 function writePassword() {
-  var correctPrompts = getPrompts();    //returns true or false. 
+  var correctPrompts = getPrompts(); 
   var passwordText = document.querySelector("#password");
 
   if (correctPrompts) {
@@ -41,11 +41,11 @@ function generatePassword(){
 
 function getPrompts(){
   choiceArr = [];
-  characterLength = parseInt(prompt("How many characters would you like your password to be? (8 - 128 characters)"));
+  characterLength = parseInt(prompt("How many characters would you like your password to be? 8 - 128 characters"));
 
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
-    alert("Length for characters has to be in between 8 - 128 digits. Please try again!");
+    alert("Length for characters has to be in between 8 - 128 digits. Please try again!!!");
     return false;
 
   }
